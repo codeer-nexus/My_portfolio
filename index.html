@@ -266,7 +266,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/project-2.png"
+                  src="./assets/Heart Care.jpeg"
                   alt="Project 2"
                   class="project-img"
                 />
@@ -285,7 +285,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./assets/project-3.png"
+                  src="./assets/BPM.png"
                   alt="Project 3"
                   class="project-img"
                 />
@@ -344,6 +344,23 @@
           </div>
         </nav>
       </footer>
+    <button onclick="topFunction()" id="goTopBtn" title="Go to top">Top</button>
+    <script>
+        // Get the button
+        var mybutton = document.getElementById("goTopBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
