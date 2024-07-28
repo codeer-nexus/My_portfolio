@@ -8,7 +8,7 @@ body {
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
-    background-color: rgb(241, 234, 241);
+    background-color: rgb(161, 181, 246);
     font-style: normal;
 }
 html{
@@ -30,7 +30,7 @@ nav,
 }
 
 nav {
-    background-color: #be95be;
+    background-color: #373e83;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -94,8 +94,10 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #be95be;
-    width:fit-content;
+    background-color: #707bef;
+    border-radius: 25px;
+    border-style:hidden;
+    width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
@@ -195,7 +197,6 @@ a:hover{
  .section__text__p1{
     text-align: center;
     color: #040404;
-    text-shadow: 2px 2px #ffffff;
  }
 
  .section__text__p2{
